@@ -23,16 +23,16 @@
         
         <div id="input-btn">
             <input type="text" id="addItem"  name="txt" placeholder="Adicione um novo item">
-            <input type="button" id="btn" name="btn" value="Adicionar item">
+            <input type="button" id="btn" value="Adicionar item" for="txt">
     
         </div>
-        <ul class="inputs">
-            <li id="res"><input type="checkbox"></li>
-            <li><input type="checkbox">Pão de forma</li>
-            <li><input type="checkbox">Café preto</li>
-            <li><input type="checkbox">Suco de laranja</li>
-            <li><input type="checkbox">Biscoito</li>
-        </ul>
+        <div>
+            <ul class="res">
+                <li id="item"></li>
+            </ul>
+            <input type="button" id="remove" value="Apagar">       
+        </div>
+        
 
         <script src="scripts.js"></script>
     </main>

@@ -49,20 +49,33 @@ h1{
     border: none;
 }
 
-.inputs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#remove{
+    margin-left: 850px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;    
 }
 
-.inputs li{
-    list-style-type: none;
-    background-color: #fff;
+.res{
+    margin: auto;
+    padding-right: 261px;
     border-radius: 12px;
-    width: 500px;
-    margin-left: 369px;
-    margin-top: 40px;
-    padding-right: 369px;
-    padding-block: 10px;
-    margin: 40px auto auto auto;
+    padding-block: 11px;
+    border-color: #B9C2D0;
+    padding-left: 18px;
+}
+
+.res li{
+    background-color: white;
+    max-width: 450px;
+    margin-left: 643px;
+    list-style-type: none;
+
+    border-radius: 12px;
+    padding-block: 18px;
+    border-color: #B9C2D0;
+    padding-left: 18px;
 }
