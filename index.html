@@ -4,56 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de compras</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <div class="img">
+        <div class="logo">
             <img src="assets/logo.png" alt="">
         </div>
     </header>
 
-    <a href="#" id="back">
-        <img src="assets/link button.png" alt="">
-    </a>    
-
-    <div id="text">
-        <h1>Compras da semana</h1>    
+    <div class="back">
+        <a href="#"><img src="assets/link button.png" alt=""></a>
     </div>
 
-    <div class="addItens">
-        <label>
-            <input type="text" id="newItem" placeholder="Adicione um novo item">
-            <button id="btn">Adicionar item</button>      
-        </label>  
-    </div>
-
-    <section id="itensAdicioned">
-        <div>
-            <input type="checkbox">
-            <span>Pão de forma</span>
-        </div>
-
-        <div>
-            <input type="checkbox">
-            <span>Café preto</span>
-        </div>
-
-        <div>
-            <input type="checkbox">
-            <span>Suco de laranja</span>
-        </div>
-
-        <div>
-            <input type="checkbox">
-            <span>Biscoito</span>
-        </div>
-    </section>
+    <main>
+        <h1>Compras da semana</h1>
+        
+        <div id="input-btn">
+            <input type="text" id="addItem"  name="txt" placeholder="Adicione um novo item">
+            <input type="button" id="btn" name="btn" value="Adicionar item">
     
+        </div>
+        <ul class="inputs">
+            <li id="res"><input type="checkbox"></li>
+            <li><input type="checkbox">Pão de forma</li>
+            <li><input type="checkbox">Café preto</li>
+            <li><input type="checkbox">Suco de laranja</li>
+            <li><input type="checkbox">Biscoito</li>
+        </ul>
 
-
-
-    <script src="scripts.js"></script>   
+        <script src="scripts.js"></script>
+    </main>
 </body>
 </html>
